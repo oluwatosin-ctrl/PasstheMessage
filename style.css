@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+body{
+    text-align: center;
+    background-color: rgb(101, 197, 235);
+    margin-top: 30px;
+}
+.container{
+    width: 30%;
+    height: 50%;
+    background-color: rgb(250, 243, 243);
+    align-content: center;
+    margin: auto;
+}
+.container > h2{
+    margin-top: 20px;
+    font-family: 'Dosis', sans-serif;
+    word-spacing: 3px;
+}
+#inputarea{
+    
+    width: 70%;
+    height: 15%;
+    border: 0.3px solid gray;
+}
+#inputarea:focus{
+    outline: none;
+}
+button{
+    width: 20%;
+    height: 13%;
+    background-color: rgb(101, 197, 235);
+    color: white;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+button:active{
+    border: 2px solid rgb(75, 103, 226);
+}
+button:focus{
+    outline: blue;
+}
+h3{
+    font-weight: 200;
+    font-size: 25px;
+    color: deepskyblue;
+}
